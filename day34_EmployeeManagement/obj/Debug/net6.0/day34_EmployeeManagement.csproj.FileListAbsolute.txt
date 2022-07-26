@@ -1,0 +1,15 @@
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\bin\Debug\net6.0\day34_EmployeeManagement.exe
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\bin\Debug\net6.0\day34_EmployeeManagement.deps.json
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\bin\Debug\net6.0\day34_EmployeeManagement.runtimeconfig.json
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\bin\Debug\net6.0\day34_EmployeeManagement.dll
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\bin\Debug\net6.0\day34_EmployeeManagement.pdb
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.csproj.AssemblyReference.cache
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.AssemblyInfoInputs.cache
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.AssemblyInfo.cs
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.dll
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\refint\day34_EmployeeManagement.dll
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.pdb
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\day34_EmployeeManagement.genruntimeconfig.cache
+C:\Users\yogesh\Desktop\bridgelab\bridgelab\day34_EmployeeManagement\day34_EmployeeManagement\obj\Debug\net6.0\ref\day34_EmployeeManagement.dll
