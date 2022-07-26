@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            EmployeeRepo employeeRepository = new EmployeeRepo();
+            employeeRepository.GetAllemployee();
         }
     }
 }
