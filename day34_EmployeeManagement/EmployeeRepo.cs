@@ -68,7 +68,60 @@ namespace day34_EmployeeManagement
 
         }
 
-        
+        public void UpdatingSalaryModel(SalaryUpdateModel salaryUpdatemodel)
+        {
+            int salary = 0;
+            try
+            {
+                using (this.connection)
+                {
+                    SalaryDetailModel displayModel = new SalaryDetailModel();
+                    SqlCommand cmd = new SqlCommand("updateEmployeeSalary", connection);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@SalaryId", salaryUpdatemodel.SalaryId);
+                    cmd.Parameters.AddWithValue("@Month", salaryUpdatemodel.Month);
+                    cmd.Parameters.AddWithValue("@Salary", salaryUpdatemodel.EmployeeSalary);
+                    cmd.Parameters.AddWithValue("@EmployeeID", salaryUpdatemodel.EmployeeId);
+
+                    connection.Open();
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    if (dr.Read())
+                    {
+                        while (dr.Read())
+                        {
+                            displayModel.EmployeeID = dr.GetInt32(0);
+                            displayModel.EmployeeName = dr.GetString(1);
+                            displayModel.Department = dr.GetString(2);
+                            displayModel.Month = dr.GetString(3);
+                            displayModel.EmployeeSalary = dr.GetInt32(4);
+                            displayModel.SalaryID = dr.GetInt32(5);
+
+                            Console.WriteLine($"EmployeeID: {displayModel.EmployeeID}\nEmployeeName: {displayModel.EmployeeName}\nSalaryID: {displayModel.SalaryID}\nEmployeeSalary: {displayModel.EmployeeSalary}");
+                            salary = displayModel.EmployeeSalary;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("data not found");
+                    }
+                    dr.Close();
+                    connection.Close();
+
+
+                }
+
+            }
+            catch (Exception Ex)
+            {
+
+                throw new Exception(Ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
 
     }
 }
